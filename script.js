@@ -40,7 +40,14 @@ function writePassword() { // ask the user the length
     }
     console.log(userSel);
   
-   
+    // ask the user the numbers
+    let numbers = confirm("Would you like the password to have numbers?");
+    if (numbers) {
+        userSel.push(... numb);
+    }
+    console.log(userSel);
+  
+    
  
   
  
