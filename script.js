@@ -33,6 +33,13 @@ function writePassword() { // ask the user the length
     }
     console.log(userSel);
   
+    // ask the user the special characters
+    let special = confirm("Would you like the password to have special characters?");
+    if (special) {
+        userSel.push(... specChar);
+    }
+    console.log(userSel);
+  
    
  
   
