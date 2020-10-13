@@ -18,3 +18,13 @@ function writePassword() { // ask the user the length
       return;
   }
   console.log(length); 
+
+   // ask the user the uppercase
+   let upperCharac = confirm("Would you like the password to have upper case letters?");
+   if (upperCharac) {
+       userSel.push(... upCase);
+   }
+   console.log(userSel);
+ 
+  
+ 
