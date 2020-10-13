@@ -47,7 +47,12 @@ function writePassword() { // ask the user the length
     }
     console.log(userSel);
   
-    
+    for (let i = 0; i < length; i++) {
+      userPass.push(userSel[Math.floor(Math.random() * userSel.length)]);
+      console.log(userPass.join("+"));
+
+  }
+
  
   
  
