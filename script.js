@@ -25,6 +25,15 @@ function writePassword() { // ask the user the length
        userSel.push(... upCase);
    }
    console.log(userSel);
+
+    // ask the user the lowercase
+    let lowerCharac = confirm("Would you like the password to have lower case letters?");
+    if (lowerCharac) {
+        userSel.push(... lowCase);
+    }
+    console.log(userSel);
+  
+   
  
   
  
