@@ -18,6 +18,8 @@ function writePassword() { // ask the user the length
       return;
   }
   console.log(length); 
+  // See the array created - not saved 
+  console.log(length[i]);
 
    // ask the user the uppercase
    let upperCharac = confirm("Would you like the password to have upper case letters?");
@@ -52,6 +54,14 @@ function writePassword() { // ask the user the length
       console.log(userPass.join("+"));
 
   }
+
+    var passwordText = document.querySelector("#password");
+
+    passwordText.value = userPass.join("");
+  
+  }
+  
+  generateBtn.addEventListener("click", writePassword);
 
  
   
