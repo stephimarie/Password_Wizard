@@ -7,6 +7,9 @@ var userSel = [];
 var userPass = [];
 var length = 8;
 
+// added to check for emptyarrays
+var emptyArray = []; 
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -24,22 +27,22 @@ function writePassword() { // ask the user the length
   console.log(length); 
   
 
-   // ask the user the uppercase start code ----pushed ---Works 
-//    let upperCharac = confirm("Would you like the password to have upper case letters?");
-//    if (upperCharac) {
-//        userSel.push(... upCase);
-//    }
-//    console.log(userSel);
+//    ask the user the uppercase
+   let upperCharac = confirm("Would you like the password to have upper case letters?");
+   if (upperCharac) {
+       userSel.push(... upCase);
+   }
+   console.log(userSel);
 
-    // ask the user the uppercase - just a test prompt 
-    let upperCharac = prompt("Which upper case letters would you like the password to have?");
-    // Comeing up false --- even when upcase typed in ???
-    if (userPass === upCase) {  
-        alert ("Great, just a few more questions.")
-    }   else {
-        alert("Please make sure you enter at least one letter.")
-        return;
-    }
+    // uppercase prompt 
+    // let upperCharac = prompt("Which upper case letters would you like the password to have?");
+    // // Comeing up false --- even when upcase typed in ???
+    // if (userPass === upCase && usersel length); {  
+    //     alert ("Great, just a few more questions.")
+    // }   else {
+    //     alert("Please make sure you enter at least one letter.")
+    //     return;
+    // }
 
     console.log(userSel);
 
@@ -50,6 +53,17 @@ function writePassword() { // ask the user the length
        
     }
     console.log(userSel);
+
+     // lowercase prompt
+    //  let lowerCharac = prompt("Which lower case letters would you like the password to have?");
+    //  if (userPass === lowCase && usersel length); {  
+        //     alert ("Great, just a few more questions.")
+        // }   else {
+        //     alert("Please make sure you enter at least one letter.")
+        //     return;
+        // }
+
+    
   
     // ask the user the special characters
     let special = confirm("Would you like the password to have special characters?");
@@ -57,6 +71,15 @@ function writePassword() { // ask the user the length
         userSel.push(... specChar);
     }
     console.log(userSel);
+
+    // Special prompt 
+    // let special = prompt("Would you like the password to have special characters?");
+    // if (userpass === special && userSel length); {
+    //     alert ("Great, just a few more questions.")
+    //     // }   else {
+    //     //     alert("Please make sure you enter at least one letter.")
+    //     //     return;
+    //     // }   
   
     // ask the user the numbers
     let numbers = confirm("Would you like the password to have numbers?");
@@ -65,9 +88,18 @@ function writePassword() { // ask the user the length
     }
     console.log(userSel);
 
+    // Number prompt 
+    // let numbers = prompt("Would you like the password to have numbers?");
+    // if (userpass === numbers && userSel length); {
+    //     alert ("Great, just a few more questions.")
+    //     //     // }   else {
+    //     //     //     alert("Please make sure you enter at least one letter.")
+    //     //     //     return;
+    //     //     // } 
+
     // Check if array is empty -------- Check at this point 
     // function checkArray() { 
-    //     let emptyArray = []; 
+    //     
         // let nonExistantArray = undefined; 
         // let fineArray = [1, 2, 3, 4, 5]; 
 
