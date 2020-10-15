@@ -7,7 +7,7 @@ var userSel = [];
 var userPass = [];
 var length = 8;
 
-// added to check for emptyarrays
+// added to check for empty
 var emptyArray = []; 
 
 // Assignment Code
@@ -34,10 +34,10 @@ function writePassword() { // ask the user the length
    }
    console.log(userSel);
 
-    // uppercase prompt 
+    // // ask the user the uppercase - just a test prompt 
     // let upperCharac = prompt("Which upper case letters would you like the password to have?");
-    // // Comeing up false --- even when upcase typed in ???
-    // if (userPass === upCase && usersel length); {  
+    // // Coming up false --- even when upcase typed in ???
+    // if (userPass === upCase) {  
     //     alert ("Great, just a few more questions.")
     // }   else {
     //     alert("Please make sure you enter at least one letter.")
@@ -53,17 +53,6 @@ function writePassword() { // ask the user the length
        
     }
     console.log(userSel);
-
-     // lowercase prompt
-    //  let lowerCharac = prompt("Which lower case letters would you like the password to have?");
-    //  if (userPass === lowCase && usersel length); {  
-        //     alert ("Great, just a few more questions.")
-        // }   else {
-        //     alert("Please make sure you enter at least one letter.")
-        //     return;
-        // }
-
-    
   
     // ask the user the special characters
     let special = confirm("Would you like the password to have special characters?");
@@ -71,15 +60,6 @@ function writePassword() { // ask the user the length
         userSel.push(... specChar);
     }
     console.log(userSel);
-
-    // Special prompt 
-    // let special = prompt("Would you like the password to have special characters?");
-    // if (userpass === special && userSel length); {
-    //     alert ("Great, just a few more questions.")
-    //     // }   else {
-    //     //     alert("Please make sure you enter at least one letter.")
-    //     //     return;
-    //     // }   
   
     // ask the user the numbers
     let numbers = confirm("Would you like the password to have numbers?");
@@ -87,75 +67,15 @@ function writePassword() { // ask the user the length
         userSel.push(... numb);
     }
     console.log(userSel);
-
-    // Number prompt 
-    // let numbers = prompt("Would you like the password to have numbers?");
-    // if (userpass === numbers && userSel length); {
-    //     alert ("Great, just a few more questions.")
-    //     //     // }   else {
-    //     //     //     alert("Please make sure you enter at least one letter.")
-    //     //     //     return;
-    //     //     // } 
-
-    // Check if array is empty -------- Check at this point 
-    // function checkArray() { 
-    //     
-        // let nonExistantArray = undefined; 
-        // let fineArray = [1, 2, 3, 4, 5]; 
-
-        // if (typeof emptyArray != "undefined"  
-        //             && emptyArray != null  
-        //             && emptyArray.length != null  
-        //             && emptyArray.length > 0); {
-                       
-        //                 output = true; 
-                       
-        //                 else 
-                           
-        //                 output = false; 
-        //             }
-        //   console.log("undefined array");
-
-        // document.querySelector('.output-empty').textContent 
-        //         = output; 
-
-        // if (typeof nonExistantArray != "undefined"  
-        //             && nonExistantArray != null  
-        //             && nonExistantArray.length != null  
-        //             && nonExistantArray.length > 0) 
-        //     output = true; 
-        // else 
-        //     output = false; 
-
-        // document.querySelector('.output-non').textContent 
-        //         = output; 
-
-        // if (typeof fineArray != "undefined"  
-        //             && fineArray != null  
-        //             && fineArray.length != null  
-        //             && fineArray.length > 0) 
-        //     output = true; 
-        // else 
-        //     output = false; 
-
-        // document.querySelector('.output-ok').textContent 
-        //         = output; 
-    } 
   
-    for (let i = 0; i < length; i++) {
+      for (let i = 0; i < length; i++) {
       userPass.push(userSel[Math.floor(Math.random() * userSel.length)]);
-      console.log(userPass.join("+"));
+      console.log(userPass.join("+"))};
+      }
+      
+        var passwordText = document.querySelector("#password");
 
-  }
+        passwordText.value = userPass.join("");
+        generateBtn.addEventListener("click", writePassword);
 
-    var passwordText = document.querySelector("#password");
-
-    passwordText.value = userPass.join("");{
-
-    }
-  
-  generateBtn.addEventListener("click", writePassword);
-
- 
-  
- 
+    
