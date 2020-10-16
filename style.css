@@ -16,6 +16,10 @@ body {
   font-family: sans-serif;
   background-color: #f9fbfd;
 }
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 45px;
+}
 
 .wrapper {
   padding-top: 30px;
@@ -40,14 +44,6 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
-}
-
-.card-header::after {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
 }
 
 .card-body {
