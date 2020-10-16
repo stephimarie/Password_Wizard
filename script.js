@@ -5,7 +5,6 @@ var specChar = "!@#$%^&()',/\|`~{[}]*+=?><.-_";
 
 var userSel = [];
 var userPass = [];
-var length = 8;
 
 // added to check for empty
 var emptyArray = []; 
@@ -34,18 +33,6 @@ function writePassword() { // ask the user the length
    }
    console.log(userSel);
 
-    // // ask the user the uppercase - just a test prompt 
-    // let upperCharac = prompt("Which upper case letters would you like the password to have?");
-    // // Coming up false --- even when upcase typed in ???
-    // if (userPass === upCase) {  
-    //     alert ("Great, just a few more questions.")
-    // }   else {
-    //     alert("Please make sure you enter at least one letter.")
-    //     return;
-    // }
-
-    console.log(userSel);
-
     // ask the user the lowercase
     let lowerCharac = confirm("Would you like the password to have lower case letters?");
     if (lowerCharac) {
@@ -72,8 +59,10 @@ function writePassword() { // ask the user the length
       userPass.push(userSel[Math.floor(Math.random() * userSel.length)]);
       console.log(userPass.join("+"))};
       }
-      
-        var passwordText = document.querySelector("#password");
+
+        var passwordText = document.querySelector("#password");{
+          
+        }
 
         passwordText.value = userPass.join("");
         generateBtn.addEventListener("click", writePassword);
