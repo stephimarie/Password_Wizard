@@ -6,9 +6,6 @@ var specChar = "!@#$%^&()',/\|`~{[}]*+=?><.-_";
 var userSel = [];
 var userPass = [];
 
-// added to check for empty
-var emptyArray = []; 
-
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -24,7 +21,6 @@ function writePassword() { // ask the user the length
       }
 
   console.log(length); 
-  
 
 //    ask the user the uppercase
    let upperCharac = confirm("Would you like the password to have upper case letters?");
@@ -57,14 +53,15 @@ function writePassword() { // ask the user the length
   
       for (let i = 0; i < length; i++) {
       userPass.push(userSel[Math.floor(Math.random() * userSel.length)]);
-      console.log(userPass.join("+"))};
+      console.log(userPass.join("+"));
+
       }
 
-        var passwordText = document.querySelector("#password");{
-          
-        }
+        var passwordText = document.querySelector("#password");
 
         passwordText.value = userPass.join("");
+          
+      }
         generateBtn.addEventListener("click", writePassword);
 
     
