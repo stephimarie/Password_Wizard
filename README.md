@@ -7,7 +7,7 @@ This application was created so an employee can use to generate a random passwor
 ## User Story 
 As an employee with access to sensitive data
 You would want to randomly generate a password that meets certain criteria
-SO THAT you can create a strong password that provides greater security
+so that you can create a strong password that provides greater security
 Acceptance Criteria
 
 WHEN the generate password button is pressed to generate a password
