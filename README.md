@@ -25,8 +25,5 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is displayed in the pages text box.
 
-## Mock-UP
-The following image shows the web application's appearance and functionality:
 
-Password generator screenshots 
 
