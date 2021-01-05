@@ -34,7 +34,7 @@ THEN the password is displayed in the pages text box.
 * HTML
 * CSS
 
-## Links
-[Github Page](https://stephimarie.github.io/Yoda_me_astrology/.)
+## Github Links
+[Password Wizard](https://stephimarie.github.io/Yoda_me_astrology/.)
 
 
