@@ -1,6 +1,7 @@
 Password Wizard
 
 ## Password Generator 
+## Description:
 
 This application was created so an employee can use to generate a random password based on criteria they’ve selected. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript. It has a clean and polished user interface that is responsive, and it adapts to multiple screen sizes.
 
@@ -25,5 +26,24 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is displayed in the pages text box.
 
+## Screenshot of Website:
+
+
+## BuiltWith:
+
+* HTML
+* CSS
+* Bulma
+
+
+## Resource preferences:
+* [RapidAPI](https://rapidapi.com/)
+* [Bulma](https://bulma.io/)
+* [Materialize](https://materializecss.com/)
+* [Popup Research](https://html-online.com/articles/simple-popup-box/)
+
+
+## Links
+[Github Page](https://stephimarie.github.io/Yoda_me_astrology/.)
 
 
