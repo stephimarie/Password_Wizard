@@ -25,6 +25,8 @@ WHEN the password is generated
 THEN the password is displayed in the pages text box.
 
 ## Screenshot of Website:
+<img width="1237" alt="Screen Shot 2021-01-04 at 11 11 12 PM" src="https://user-images.githubusercontent.com/71304781/103616968-38f3a880-4ee2-11eb-9825-cf6fd042aed9.png">
+
 
 
 ## BuiltWith:
