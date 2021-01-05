@@ -35,6 +35,6 @@ THEN the password is displayed in the pages text box.
 * CSS
 
 ## Github Links
-[Password Wizard](https://stephimarie.github.io/Yoda_me_astrology/.)
+[Password Wizard](https://stephimarie.github.io/Password_Wizard/.)
 
 
