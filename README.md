@@ -33,15 +33,6 @@ THEN the password is displayed in the pages text box.
 
 * HTML
 * CSS
-* Bulma
-
-
-## Resource preferences:
-* [RapidAPI](https://rapidapi.com/)
-* [Bulma](https://bulma.io/)
-* [Materialize](https://materializecss.com/)
-* [Popup Research](https://html-online.com/articles/simple-popup-box/)
-
 
 ## Links
 [Github Page](https://stephimarie.github.io/Yoda_me_astrology/.)
